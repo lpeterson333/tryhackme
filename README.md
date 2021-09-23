@@ -1,2 +1,2 @@
 # tryhackme
-Reports from the tryhackme lessons
+Reports from the tryhackme rooms
