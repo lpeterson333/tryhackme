@@ -1,6 +1,11 @@
 Notes for TryHackMe | John The Ripper room
 
-Jumbo John is installed by default on Kali Linux.  Type john in terminal to check.
+Jumbo John is installed by default on Kali Linux.  Type john in terminal to check. 
+On Kali wordlists are in the /usr/share/wordlists directory. 
 
 Word lists for dictionary attacks can be found at SecLists github repo:
 https://github.com/danielmiessler/SecLists
+The famous rockyou.txt word list is found at:
+https://github.com/danielmiessler/SecLists/tree/master/Passwords/Leaked-Databases
+It may be extracted from .tar.gz format using tar xvzf rockyou.txt.tar.gz
+
