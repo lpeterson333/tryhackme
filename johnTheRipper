@@ -36,4 +36,6 @@ example: unshadow local_passwd local_shadow > unshadowed.txt
 When using unshadow, you can either use the entire /etc/passwd and /etc/shadow file-
 if you have them available, or you can use the relevant line from each
 
+Custom rules are defined in the john.conf file, usually located in /etc/john/john.conf
+
 
