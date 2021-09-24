@@ -41,3 +41,7 @@ Custom rules wiki is located here: https://www.openwall.com/john/doc/RULES.shtml
 for a rule name PoloPassword create it like this:
 [List.Rules:PoloPassword]
 cAz"[0-9] [!£$%@]" //whatever regex rule needed
+
+ Password Protected Zip Files
+ zip2john tool to convert the zip file into a hash format that John is able to understand
+ example: zip2john zipfile.zip > zip_hash.txt
