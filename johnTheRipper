@@ -45,3 +45,7 @@ cAz"[0-9] [!£$%@]" //whatever regex rule needed
  Password Protected Zip Files
  zip2john tool to convert the zip file into a hash format that John is able to understand
  example: zip2john zipfile.zip > zip_hash.txt
+ 
+ Password Protected RAR Files
+ rar2john tool to convert the rar file into a hash format that John is able to understand
+ rar2john rarfile.rar > rar_hash.txt
