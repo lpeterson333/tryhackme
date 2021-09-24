@@ -1,6 +1,6 @@
 Notes on TryHackMe | Burpsuite room
 
-Comparer in Burpsuite is similar to (but not as powerful as) CyberChef
+Comparer in Burpsuite is similar to (but not as powerful as) CyberChef. https://portswigger.net/burp/documentation/desktop/tools/comparer
 
 Extender:  Additional modules can be added to Burpsuite to extend functionality (some but not all are free).
     Logger++ - Adds enhanced logging to all requests and responses from all Burp Suite tools, enable this one before you need it ;)
@@ -10,5 +10,7 @@ Extender:  Additional modules can be added to Burpsuite to extend functionality 
     Retire.js - Adds scanner checks for outdated JavaScript libraries that contain vulnerabilities, this is a premium extension
     J2EEScan - Adds scanner test coverage for J2EE (java platform for web development) applications, this is a premium extension
     Request Timer - Captures response times for requests made by all Burp tools, useful for discovering timing attack vectors 
+   
+Jython, the Java implementation of Python, is a prerequisite for many extensions in Burpsuite.
     
    
