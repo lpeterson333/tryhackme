@@ -37,5 +37,6 @@ When using unshadow, you can either use the entire /etc/passwd and /etc/shadow f
 if you have them available, or you can use the relevant line from each
 
 Custom rules are defined in the john.conf file, usually located in /etc/john/john.conf
+Custom rules wiki is located here: https://www.openwall.com/john/doc/RULES.shtml
 
 
