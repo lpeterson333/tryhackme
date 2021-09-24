@@ -9,3 +9,13 @@ The famous rockyou.txt word list is found at:
 https://github.com/danielmiessler/SecLists/tree/master/Passwords/Leaked-Databases
 It may be extracted from .tar.gz format using tar xvzf rockyou.txt.tar.gz
 
+Example usage without specifying the type of hash:
+john --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt
+
+To identify the hash type first can use hash-identifier python file which can be downloaded to kali using this command:
+wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py
+and then launch it with:
+python3 hash-id.py
+and the hash you want to identify.
+
+
