@@ -13,7 +13,10 @@ Extender:  Additional modules can be added to Burpsuite to extend functionality 
    
 Jython, the Java implementation of Python, is a prerequisite for many extensions in Burpsuite.
 
-Web Security Academy (mostly free)
+Web Security Academy (mostly free training for Burpsuite)
 https://portswigger.net/web-security
+
+OWASP Juice Shop (Vulnerable Web App training)
+https://tryhackme.com/room/owaspjuiceshop
     
    
