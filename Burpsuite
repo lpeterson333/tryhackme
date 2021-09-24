@@ -12,5 +12,8 @@ Extender:  Additional modules can be added to Burpsuite to extend functionality 
     Request Timer - Captures response times for requests made by all Burp tools, useful for discovering timing attack vectors 
    
 Jython, the Java implementation of Python, is a prerequisite for many extensions in Burpsuite.
+
+Web Security Academy (mostly free)
+https://portswigger.net/web-security
     
    
