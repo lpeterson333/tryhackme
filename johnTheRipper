@@ -1,0 +1,6 @@
+Notes for TryHackMe | John The Ripper room
+
+Jumbo John is installed by default on Kali Linux.  Type john in terminal to check.
+
+Word lists for dictionary attacks can be found at SecLists github repo:
+https://github.com/danielmiessler/SecLists
