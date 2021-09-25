@@ -1,6 +1,6 @@
-There are three main types of cross site scripting (xss).
+XSS is available in javascript, css, flash and vbscript. There are three main types of cross site scripting (xss).
 
-1) Stored XSS: the website allows unsanitized user input to be stored in the database.  Malicious users
+1) Stored XSS: most dangerous type of xss as it is persistent. The website allows unsanitized user input to be stored in the database.  Malicious users
 can enter scripts that will run malicious content in the user's browser the next time a user visits that web page (the content is served
 from the database). No interaction on behalf of the user is needed.
 
