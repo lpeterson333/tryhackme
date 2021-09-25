@@ -1,0 +1,21 @@
+There are three main types of cross site scripting (xss).
+
+1) Stored XSS: the website allows unsanitized user input to be stored in the database.  Malicious users
+can enter scripts that will run malicious content in the user's browser the next time a user visits that web page (the content is served
+from the database). No interaction on behalf of the user is needed.
+
+2) Reflected XSS:  also known as non-persistent xss.  A malicious payload is included in the user's HTTP request to the server.  The malicious payload
+is reflected back to the user with the server's response.  The user must interact with the response (click a link)
+for the script to run. There are many different varieties of reflected cross-site scripting. The location of the reflected data
+within the application's response determines what type of payload is required to exploit it and might also affect the impact of the vulnerability.
+https://portswigger.net/web-security/cross-site-scripting/reflected
+
+3) DOM based XSS:  Document Object Model: is the data representation of the objects that comprise the structure and content of a document on the web. 
+It is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. 
+The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.  
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction 
+DOM-based XSS (also known as DOM XSS) arises when an application contains some client-side JavaScript that processes data from an untrusted source in an unsafe way, 
+usually by writing the data back to the DOM. 
+https://portswigger.net/web-security/cross-site-scripting
+
+
